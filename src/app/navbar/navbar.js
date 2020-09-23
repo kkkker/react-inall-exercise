@@ -8,7 +8,7 @@ class NavBar extends Component {
       <nav className="nav-bar">
         <div className="nav-link">
           <Link to={"/"}>Home</Link>
-          <Link to={"/calculatrice"}>在线计算器</Link>
+          <Link to={"/calculator"}>在线计算器</Link>
           <Link to={"/timer"}>在线倒计时器</Link>
         </div>
       </nav>

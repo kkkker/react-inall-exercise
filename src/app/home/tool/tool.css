@@ -1,0 +1,23 @@
+.tools {
+  display: flex;
+  background-color: rgb(202, 202, 202);
+  padding: 40px;
+  height: 250px;
+}
+
+.tool {
+  flex: 1;
+}
+
+.tool img {
+  width: 50%;
+  height: auto;
+}
+
+.tool a {
+  color: white;
+}
+
+.tool-name {
+  margin-top: 15px;
+}
