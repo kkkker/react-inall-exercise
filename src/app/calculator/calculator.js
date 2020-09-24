@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 class Calculator extends Component {
   state = {
-    content: "",
+    content: "0",
     formule: "",
     buttons: [
       "+",
@@ -35,7 +35,7 @@ class Calculator extends Component {
       });
     } else if (buttonType === "Clear") {
       this.setState({
-        content: "",
+        content: "0",
         formule: "",
       });
     } else {

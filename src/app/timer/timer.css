@@ -1,0 +1,66 @@
+.timer-main {
+  height: 650px;
+  width: 60%;
+  margin: 0 auto;
+  background-color: rgb(235, 232, 232);
+}
+
+.timer-main h2 {
+  font-size: 2em;
+}
+
+.timer {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 auto;
+  padding: 60px 30px;
+  display: flex;
+}
+
+.time-set {
+  flex: 2;
+  font-size: 1.2em;
+}
+
+.time {
+  height: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.time input {
+  height: 60%;
+  width: 40%;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.time-button {
+  height: 50%;
+}
+
+.time-button button {
+  width: 80%;
+  height: 90%;
+  margin-top: 10px;
+  margin-right: 50px;
+  border: none;
+  background-color: rgb(22, 149, 223);
+  color: white;
+}
+
+.time-show {
+  flex: 3;
+  border: black solid 1px;
+  font-size: 3.6em;
+}
+
+.back-home {
+  margin-left: 0;
+  padding-left: 30px;
+  font-size: 1.5em;
+}
+
+.back-home a {
+  color: black;
+}

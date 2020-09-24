@@ -3,7 +3,7 @@ import "./home.less";
 import Tool from "./tool/tool";
 
 const Home = () => {
-  const status = {
+  const state = {
     tools: [
       {
         image: require("../../images/calculator.png"),
@@ -25,7 +25,7 @@ const Home = () => {
         <h2>在线实用工具</h2>
       </div>
       <div className="tools">
-        {status.tools.map((tool) => {
+        {state.tools.map((tool) => {
           return (
             <Tool
               key={tool.nameEng}
