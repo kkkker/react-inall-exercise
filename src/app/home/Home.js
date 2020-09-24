@@ -19,7 +19,7 @@ const Home = () => {
   };
 
   return (
-    <div className="main">
+    <div className="home-main">
       <div className="introduce">
         <div className="introduce-content"></div>
         <h2>在线实用工具</h2>

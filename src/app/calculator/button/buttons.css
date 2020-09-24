@@ -1,0 +1,29 @@
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+}
+
+.button {
+  width: 30%;
+  height: 40px;
+  margin-top: 20px;
+  border: none;
+}
+
+.operator {
+  background-color: rgb(238, 238, 86);
+}
+
+.result {
+  background-color: rgb(241, 84, 84);
+}
+
+.clear {
+  background-color: plum;
+}
+
+.number {
+  background-color: orange;
+}
