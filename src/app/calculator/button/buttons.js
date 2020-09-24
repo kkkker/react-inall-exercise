@@ -4,11 +4,17 @@ import Button from "./button";
 
 class Buttons extends Component {
   render() {
-    const buttons = this.props.buttons;
+    const { buttons, handleClick } = this.props;
     return (
       <div className="buttons">
         {buttons.map((button) => {
-          return <Button key={button} className="button" button={button} />;
+          return (
+            <Button
+              key={button}
+              button={button}
+              handleClick={handleClick}
+            />
+          );
         })}
       </div>
     );

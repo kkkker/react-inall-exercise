@@ -3,7 +3,7 @@ import "./buttons.css";
 
 class Button extends Component {
   render() {
-    const button = this.props.button;
+    const { button, handleClick } = this.props;
     let buttonType = "";
     if (button === "+" || button === "-" || button === "x") {
       buttonType = "operator";
@@ -14,7 +14,14 @@ class Button extends Component {
     } else {
       buttonType = "number";
     }
-    return <button className={`button ${buttonType}`}>{button}</button>;
+    return (
+      <button
+        className={`button ${buttonType}`}
+        onClick={() => handleClick(button)}
+      >
+        {button}
+      </button>
+    );
   }
 }
 export default Button;
